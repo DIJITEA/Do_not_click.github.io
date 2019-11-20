@@ -1,0 +1,40 @@
+.bg{
+    background: #000000;
+}
+
+.gallery {
+  padding: 0.5vw;
+  font-size: 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-flow: row wrap;
+  display: flex;
+}
+.gallery div {
+  flex: auto;
+  width: 560px;
+  margin: 0.5vw;
+}
+.gallery div img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 550px) {
+  .gallery div {
+    margin: 0;
+ 
+  }
+  .gallery {
+    padding: 0;
+  }
+}
+.gallery:hover img {
+  opacity: 0.3;
+  z-index: 1;
+  transition: 0.8s opacity;
+}
+.gallery:hover img:hover {
+  opacity: 1;
+  transition: 0.8s height;
+  transition: 0.8s opacity;
+}

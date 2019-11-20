@@ -1,0 +1,22 @@
+#hour,#min,#sec,#day {
+	float:left;
+	padding:5px;
+	width:18px;
+	height:20px;
+	position:relative;
+	display:block;
+}
+			
+p {
+	margin:0px;
+	position:absolute;
+}
+#sec1,#min1,#hour1,#day1 {
+	margin-left:14px;
+}
+#razd {
+	float:left;
+	position:relative;
+	padding:5px;
+	display:block;
+}

@@ -1,0 +1,145 @@
+
+.BTS1{
+    opacity: 1;  
+    position: absolute;
+    top: -1000px;
+    right: 1000px;
+    z-index: 1;
+}
+.BTSpos{
+    position: absolute;
+   
+    top: 50%;
+    right: 50%;
+}
+.Static{
+    opacity: 1;
+    z-index: 1;
+}
+.Right1{
+    right: 1000px;
+    top: 990px;
+}
+.pp{
+    position: absolute;
+    top: 55%;
+    right: 50%;
+}
+.ppp{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+}
+.ztop{
+    z-index: 2;
+}
+#T2{
+    opacity: 0;
+}
+.ppo1{
+    opacity: 1;
+}
+.test{
+    position: fixed;
+    top: 100px;
+}
+#Z{
+opacity: 0;
+z-index: -1;
+}
+#W{
+    opacity: 0;
+    z-index: -1;
+    }
+#E{
+    opacity: 0;
+    z-index: -1;
+}
+.Ec{
+    position: absolute;
+    top: 10px;
+    right: 500px;
+}
+#F{
+    opacity: 0;
+    z-index: -1;
+}
+.Fc{
+    position: absolute;
+    top: 10000px;
+    right: 500px;
+}
+#D{
+    opacity: 0;
+    z-index: -1;
+}
+.Dc{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+#A{
+    opacity: 0;
+    z-index: -1;
+}
+#B{
+    opacity: 0;
+    z-index: -1;
+    right: 100px;
+}
+#C{
+    opacity: 0;
+    z-index: -1;
+    right: 100px;
+}
+#Last{
+    opacity: 0;
+    z-index: -1;
+    right: 100px;  
+}
+#dead{
+    opacity: 0;
+    z-index: -1;
+    right: 100px;
+}
+#low{
+    opacity: 0;
+    max-height: 0px;
+    max-width: 0ex;
+    position: absolute;
+    right: 30000px;    
+  
+}
+.Bout{
+    position: absolute;
+    top: 50px;
+    right: 1000px;
+ 
+}
+.low{
+    opacity: 0;
+    max-height: 0px;
+    max-width: 0ex;
+    position: absolute;
+    right: 30000px;    
+  
+}
+.bg{
+    background-image: url("1.jpg");
+}
+
+.magick{
+    width: 75ch;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: monospace;
+    white-space: nowrap;
+    animation: printed-text 5s steps(1303),
+               flashin-border .75s step-start infinite;
+  }
+@keyframes printed-text{
+    from {
+      width: 0%;
+    }
+  }
