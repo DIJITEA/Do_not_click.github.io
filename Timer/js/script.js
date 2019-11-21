@@ -127,7 +127,7 @@ function get_timer() {
 		setTimeout(get_timer,1000);
 	}
 	else {
-		$("#clock").html("<span id='stop'>������ ��������!!!</span>");
+		$("#clock").html("<span id='stop'>!!!</span>");
 	}
 	
 }
